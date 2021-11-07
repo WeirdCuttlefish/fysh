@@ -7,8 +7,8 @@ Currently, fysh only supports Windows.
 Open src/config.txt and change the value for spotify_path to the location of the spotify executable
 
 ### Building (Mingw):
-`cd src
-g++ main.cpp -o fysh.exe`
+``cd src
+g++ main.cpp -o fysh.exe``
 
 ## Troubleshooting
 ### Can't get Spotify Path
