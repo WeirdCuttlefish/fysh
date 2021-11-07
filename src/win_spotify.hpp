@@ -5,14 +5,14 @@
 #include <Windows.h>
 
 namespace win{
-    const char* ad_state = "Spotify Free"; //When an ad plays, Spotify changes the window name to Spotify Free
+    const char* ad_state = "Advertisement";
     const int delay = 2000; //Increase depending on how slow your computer is
     const char* spotify_path = "Spotify.lnk";
     
     void close(){
         system("taskkill /IM spotify.exe -f");
     }
-    
+
     void restart(){
         system("taskkill /IM spotify.exe -f"); //Force closes all tasks named spotify.exe
         system(spotify_path); //Launches Spotify
