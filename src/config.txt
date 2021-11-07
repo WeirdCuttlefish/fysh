@@ -1,0 +1,3 @@
+#define ad_state "Advertisement"
+#define delay 1000
+#define spotify_path "Spotify.lnk"
