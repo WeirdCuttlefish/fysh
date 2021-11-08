@@ -3,7 +3,8 @@
 #include <cstdlib>
 
 int main(){
-    atexit(win::close_spotify);
+    if(close_on_exit)
+        atexit(win::close_spotify);
     win::restart_spotify();
     while(true){
         if(win::is_ad_playing()){

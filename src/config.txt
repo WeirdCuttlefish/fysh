@@ -1,3 +1,4 @@
-#define ad_state "Advertisement"
-#define delay 1000
-#define spotify_path "Spotify.lnk"
+#define ad_state "Advertisement" //Name of Spotify Window during ad
+#define delay 1000 //Delay before Spotify has releaunched
+#define spotify_path "Spotify.lnk" //Path to Spotify
+#define close_on_exit true //Close Spotify when exiting this program
