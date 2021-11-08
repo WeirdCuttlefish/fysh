@@ -1,5 +1,5 @@
 # fysh
-Fish love music but don't like ads! Fysh is a C++ program designed to skip Spotify ads.
+Fish love music but don't like ads! Fortunately they have Fysh, a C++ program designed to skip Spotify ads.
 
 Currently, fysh only supports Windows. 
 
