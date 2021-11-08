@@ -5,7 +5,7 @@ Currently, fysh only supports Windows.
 
 ## Setup
 ### Configuring
-Open src/config.txt and change the value for spotify_path to the location of the spotify executable
+Open src/config.txt and set value for spotify_path to the location of the spotify executable
 
 ### Building (Mingw):
 ``windres rsc/logo.rsc rsc/logo.o
