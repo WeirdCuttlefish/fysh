@@ -9,7 +9,7 @@ Open src/config.txt and set value for spotify_path to the location of the spotif
 
 ### Building (Mingw):
 ```
-windres rsc/logo.rsc rsc/logo.o
+windres rsc/logo.rc rsc/logo.o
 g++ src/main.cpp rsc/logo.o -o fysh.exe
 ```
 
